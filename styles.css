@@ -1,0 +1,86 @@
+* {
+    text-decoration: none;
+}
+
+.scope-one-regular {
+    font-family: "Scope One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #342E37;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-family: scope-one;
+    margin: auto;
+}
+
+.hide {
+    display: none;
+    text-align: center;
+}
+
+#icon:hover + .hide {
+    display: block;
+    color: #fff;
+}
+
+li a i {
+    font-size: 50px;
+    color: #fff;
+    padding: 10px;
+
+}
+
+
+.image_banner img{
+    width: 140%;
+    height: 70%;
+    margin-left: 10px;
+    
+}
+#home{
+    display: flex;
+    padding: 0px;
+    margin: 0%;
+    background: #FAFFFD;
+    width: 100%;
+    
+}
+.image_banner{
+    width: 50%;
+}
+.text{
+    width: 60%;
+    margin-right: 20px;
+}
+span{
+    font-size: 80px;
+    color: #FA824C;
+    font-weight: bolder;
+}
+.text h4{
+    font-size: 70px;
+    width: 100%;
+}
+.text p{
+    font-size: 30px;
+}
